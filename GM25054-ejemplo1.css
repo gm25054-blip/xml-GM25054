@@ -1,0 +1,35 @@
+/* GM25054-ejemplo1.css */
+
+fichero {
+    background-color: #4F6D7A;
+    display: block;
+    padding: 20px;
+}
+
+ficha {
+    background-color: #8FA9B3;
+    display: block;
+    padding: 15px;
+}
+
+nombre {
+    color: #1F2933;
+    display: inline;
+    font-weight: bold;
+
+}
+
+apellido {
+    color: #1F2933;
+    display: inline;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+direccion {
+    color: #1F2933;
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}

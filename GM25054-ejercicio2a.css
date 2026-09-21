@@ -1,0 +1,57 @@
+/* GM25054-ejercicio2a.css */
+
+pais {
+    display: block;
+    background-color: #536878;
+    padding: 20px;
+    font-family: Arial;
+}
+
+pais::before {
+    content: "País: " attr(nombre) " | Moneda: " attr(moneda) " | Código: " attr(codigo_telefonico);
+    display: block;
+    background-color: #B8C7CE;
+    color: #17202A;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+departamento {
+    display: block;
+    background-color: #9AAEB8;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+departamento::before {
+    content: "Departamento: " attr(nombre);
+    display: block;
+    color: #17202A;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+cabecera,
+habitantes,
+altura {
+    display: block;
+    color: #17202A;
+    margin: 6px 0;
+}
+
+idiomas {
+    display: block;
+    background-color: #B8C7CE;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+oficial,
+autóctono,
+segundo_idioma {
+    display: block;
+    color: #17202A;
+    margin: 5px 0;
+}

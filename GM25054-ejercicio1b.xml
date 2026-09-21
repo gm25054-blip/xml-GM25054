@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="GM25054-ejercicio1b.css" ?>
+
+<!-- GM25054-ejercicio1b.xml -->
+<fichero>
+<ficha id="1" fechaingreso="1/11/2012">
+    <nombre>Antonio</nombre>
+    <apellido>Barbero</apellido>
+    <direccion>Calle de Los Andes, 45</direccion>
+  </ficha>
+  
+<ficha id="2" fechaingreso="19/09/2026">
+    <nombre>Rubí</nombre>
+    <apellido>García</apellido>
+    <direccion>Soyapango, San Salvador</direccion>
+    
+    <contacto>
+    <telefono>7543-9832</telefono>
+    <email>gm25054@ues.edu.sv</email>
+    <website>GM25054-ejercicio1a.xml</website>
+    </contacto>
+  </ficha>
+  
+<ficha id="3" fechaingreso="19/09/2026">
+        <nombre>José</nombre>
+        <apellido>Hernández</apellido>
+        <direccion>Colonia San Benito, San Salvador</direccion>
+
+        <contacto>
+            <telefono>6135-8976</telefono>
+            <email>jose.hrndez012@gmail.com</email>
+            <website>GM25054-ejercicio1b.xml</website>
+        </contacto>
+
+        <documentacion>
+            <dui numero="00345679-1">00345679-1</dui>
+            <isss numero="23458924">23458924</isss>
+            <afp nombre="AFP">3546789124</afp>
+        </documentacion>
+    </ficha>
+</fichero>

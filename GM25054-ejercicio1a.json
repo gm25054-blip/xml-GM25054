@@ -1,0 +1,25 @@
+{
+	"fichero": {
+		"ficha": [
+			{
+				"nombre": "Antonio",
+				"apellido": "Barbero",
+				"direccion": "Calle de Los Andes, 45",
+				"_id": "1",
+				"_fechaingreso": "1/11/2012"
+			},
+			{
+				"nombre": "Rubí",
+				"apellido": "García",
+				"direccion": "Soyapango, San Salvador",
+				"contacto": {
+					"telefono": "7543-9832",
+					"email": "gm25054@ues.edu.sv",
+					"website": "GM25054-ejercicio1a.xml"
+				},
+				"_id": "2",
+				"_fechaingreso": "19/09/2026"
+			}
+		]
+	}
+}

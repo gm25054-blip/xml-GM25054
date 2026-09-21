@@ -1,0 +1,89 @@
+/* GM25054-ejercicio1b.css */
+
+fichero {
+    display: block;
+    background-color: #536878;
+    padding: 20px;
+    font-family: Arial;
+}
+
+ficha {
+    display: block;
+    background-color: #9AAEB8;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+ficha::before {
+    content: "ID: " attr(id) " | Fecha de ingreso: " attr(fechaingreso);
+    display: block;
+    color: #17202A;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+nombre {
+    display: inline;
+    color: #17202A;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+apellido {
+    display: inline;
+    color: #17202A;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+direccion {
+    display: block;
+    color: #17202A;
+    margin-top: 10px;
+}
+
+contacto {
+    display: block;
+    background-color: #B8C7CE;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+telefono,
+email,
+website {
+    display: block;
+    color: #17202A;
+    margin: 5px 0;
+}
+
+documentacion {
+    display: block;
+    background-color: #C7D2D8;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+dui,
+isss,
+afp {
+    display: block;
+    color: #17202A;
+    margin: 6px 0;
+}
+
+dui::before {
+    content: "DUI: ";
+    font-weight: bold;
+}
+
+isss::before {
+    content: "ISSS: ";
+    font-weight: bold;
+}
+
+afp::before {
+    content: "AFP: ";
+    font-weight: bold;
+}

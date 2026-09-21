@@ -1,0 +1,51 @@
+{
+	"fichero": {
+		"ficha": [
+			{
+				"nombre": "Antonio",
+				"apellido": "Barbero",
+				"direccion": "Calle de Los Andes, 45",
+				"_id": "1",
+				"_fechaingreso": "1/11/2012"
+			},
+			{
+				"nombre": "Rubí",
+				"apellido": "García",
+				"direccion": "Soyapango, San Salvador",
+				"contacto": {
+					"telefono": "7543-9832",
+					"email": "gm25054@ues.edu.sv",
+					"website": "GM25054-ejercicio1a.xml"
+				},
+				"_id": "2",
+				"_fechaingreso": "19/09/2026"
+			},
+			{
+				"nombre": "José",
+				"apellido": "Hernández",
+				"direccion": "Colonia San Benito, San Salvador",
+				"contacto": {
+					"telefono": "6135-8976",
+					"email": "jose.hrndez012@gmail.com",
+					"website": "GM25054-ejercicio1b.xml"
+				},
+				"documentacion": {
+					"dui": {
+						"_numero": "00345679-1",
+						"__text": "00345679-1"
+					},
+					"isss": {
+						"_numero": "23458924",
+						"__text": "23458924"
+					},
+					"afp": {
+						"_nombre": "AFP",
+						"__text": "3546789124"
+					}
+				},
+				"_id": "3",
+				"_fechaingreso": "19/09/2026"
+			}
+		]
+	}
+}

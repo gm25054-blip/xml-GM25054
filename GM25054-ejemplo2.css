@@ -1,0 +1,35 @@
+/* GM25054-ejemplo2.css */
+
+pais {
+    display: block;
+    background-color: #536878;
+    padding: 20px;
+    font-family: Arial;
+}
+
+departamento {
+    display: block;
+    background-color: #9AAEB8;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+cabecera {
+    display: block;
+    color: #17202A;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+habitantes {
+    display: block;
+    color: #17202A;
+    margin-bottom: 5px;
+}
+
+altura {
+    display: block;
+    color: #17202A;
+}

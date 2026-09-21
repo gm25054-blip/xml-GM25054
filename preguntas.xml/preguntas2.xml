@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="GM25054-pregunta2.css" ?>
+<!--preguntas.xml-->
+<pregunta id="2">
+    <enunciado>
+        ¿Qué se puede concluir a partir del ejemplo 2 y sus ejercicios?
+    </enunciado>
+
+    <respuesta>
+        Se concluye que XML permite representar información de un país y sus
+        departamentos de manera organizada. Los elementos y atributos deben
+        utilizarse de forma lógica. Las características generales del país,
+        como la moneda, el código telefónico y el área territorial, deben
+        colocarse en el elemento del país, mientras que los datos propios de cada
+        departamento deben colocarse dentro de su respectivo elemento.
+    </respuesta>
+</pregunta>

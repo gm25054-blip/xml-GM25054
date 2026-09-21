@@ -1,0 +1,26 @@
+{
+	"pais": {
+		"departamento": [
+			{
+				"cabecera": "San Salvador",
+				"habitantes": "1,700,000",
+				"altura": "545 MSNM",
+				"_id": "1",
+				"_nombre": "San Salvador"
+			},
+			{
+				"cabecera": "Santa Tecla",
+				"habitantes": "164,171",
+				"altura": "789 MSNM",
+				"_id": "2",
+				"_nombre": "La Libertad"
+			}
+		],
+		"idiomas": {
+			"oficial": "Español",
+			"autóctono": "Náhuat",
+			"segundo_idioma": "Inglés"
+		},
+		"__text": "nombre=\"El Salvador\"\n    carnet=\"GM25054\"\n    estudiante=\"Rubí Angélica García Mejía\"\n    moneda=\"Dólar estadounidense\"\n    codigo_telefonico=\"+503\"\n    idioma_oficial=\"Español\"\n    area_territorial=\"21041 km2\">"
+	}
+}

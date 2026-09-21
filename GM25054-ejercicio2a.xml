@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="GM25054-ejercicio2a.css" ?>
+<!--GM25054-ejercicio2a.xml-->
+<pais
+    nombre="El Salvador"
+    carnet="GM25054"
+    estudiante="Rubí Angélica García Mejía"
+    moneda="Dólar estadounidense"
+    codigo_telefonico="+503"
+    idioma_oficial="Español"
+    area_territorial="21041 km2">
+  
+  <departamento id="1" nombre="San Salvador">
+        <cabecera>San Salvador</cabecera>
+       <habitantes>1,700,000</habitantes>
+       <altura>545 MSNM</altura>
+  </departamento>
+  
+  <departamento id="2" nombre="La Libertad">
+        <cabecera>Santa Tecla</cabecera>
+        <habitantes>164,171</habitantes>
+        <altura>789 MSNM</altura>
+  </departamento>
+  
+  <idiomas>
+        <oficial>Español</oficial>
+        <autóctono>Náhuat</autóctono>
+        <segundo_idioma>Inglés</segundo_idioma>
+    </idiomas>
+</pais>
