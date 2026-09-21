@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="GM25054-pregunta3.css" ?>
+<!--preguntas.xml-->
+<pregunta id="3">
+    <enunciado>
+        ¿A partir de los ejercicios desarrollados en esta sección II.3 qué puede concluir?
+    </enunciado>
+  
+        <respuesta>
+            Los ejercicios de esta sección permitieron comprender cómo los documentos XML
+            pueden convertirse a formato JSON y cómo JavaScript puede interpretar y
+            manipular los datos mediante JSON.parse() y JSON.stringify(). También se
+            comprobó la relación entre XML y JSON y la utilidad de estos formatos para
+            representar información estructurada.
+        </respuesta>
+</pregunta>
+
