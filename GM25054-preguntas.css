@@ -1,0 +1,72 @@
+/* GM25054-preguntas.css */
+
+preguntas {
+    display: block;
+    background-color: #E8EEF1;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+preguntas::before {
+    content: "Preguntas y respuestas - Laboratorio XML";
+    display: block;
+    background-color: #536878;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+preguntas::after {
+    content: "Carnet: " attr(carnet) " | Estudiante: " attr(estudiante);
+    display: block;
+    background-color: #D5E0E5;
+    color: #17202A;
+    text-align: center;
+    padding: 12px;
+    margin-top: 25px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+pregunta {
+    display: block;
+    background-color: #9AAEB8;
+    margin: 20px auto;
+    padding: 20px;
+    width: 85%;
+    border-radius: 10px;
+}
+
+pregunta::before {
+    content: "Pregunta " attr(id);
+    display: block;
+    color: #17202A;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+enunciado {
+    display: block;
+    background-color: #B8C7CE;
+    color: #17202A;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+respuesta {
+    display: block;
+    background-color: #F7F9FA;
+    color: #17202A;
+    padding: 18px;
+    border-radius: 7px;
+    line-height: 1.6;
+    font-size: 16px;
+}
